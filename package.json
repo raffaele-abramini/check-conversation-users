@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/raffaele-abramini/check-conversation-users#readme",
   "dependencies": {
+    "chalk": "4.1.1",
     "twilio": "3.62.0"
+  },
+  "devDependencies": {
+    "prettier": "2.3.0"
   }
 }
